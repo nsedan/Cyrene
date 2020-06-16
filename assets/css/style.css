@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font-family: 'MuseoModerno', cursive;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+}
+
+#Cyrene{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 4rem
+}
+
+.top-row, .middle-row, .bottom-row{
+    display: flex;
+    justify-content: center;
+}
+
+#red{
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 3rem;
+}
+
+#green{
+    width: 5rem;
+    height: 5rem;
+    background-color: green;
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 3rem;
+}
+
+#yellow{
+    width: 5rem;
+    height: 5rem;;
+    background-color: yellow;
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 7rem;
+}
+
+#blue{
+    width: 5rem;
+    height: 5rem;
+    background-color: blue;
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 7rem;
+}
+
+#purple{
+    width: 5rem;
+    height: 5rem;
+    background-color: purple;
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 4rem;
+}
+
+#cyan{
+    width: 5rem;
+    height: 5rem;
+    background-color: cyan;
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 4rem;
+}
+
+
+
+  
