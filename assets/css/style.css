@@ -15,12 +15,18 @@ body{
     height: 100%;
 }
 
+
+/* LOGO */
 #Cyrene{
     font-family: 'MuseoModerno', cursive;
     font-weight: 900;
+    font-size: 4rem;
     text-align: center;
     margin-top: 4rem
 }
+
+
+/* GAMEFIELD */
 
 .top-row, .middle-row, .bottom-row{
     display: flex;
@@ -30,7 +36,7 @@ body{
 #red{
     width: 5rem;
     height: 5rem;
-    background-color: red;
+    background-image: radial-gradient(rgb(252, 82, 82) 5%, red 95%);
     border-radius: 33%;
     margin: 2rem auto;
     margin-right: 3rem;
@@ -39,7 +45,7 @@ body{
 #green{
     width: 5rem;
     height: 5rem;
-    background-color: green;
+    background-image: radial-gradient(rgb(106, 255, 106) 5%, green 95%);
     border-radius: 33%;
     margin: 2rem auto;
     margin-left: 3rem;
@@ -47,8 +53,8 @@ body{
 
 #yellow{
     width: 5rem;
-    height: 5rem;;
-    background-color: yellow;
+    height: 5rem;
+    background-image: radial-gradient(rgb(255, 255, 152) 5%, yellow 95%);
     border-radius: 33%;
     margin: 2rem auto;
     margin-right: 7rem;
@@ -57,7 +63,7 @@ body{
 #blue{
     width: 5rem;
     height: 5rem;
-    background-color: blue;
+    background-image: radial-gradient(rgb(53, 53, 255) 5%,blue 95%);
     border-radius: 33%;
     margin: 2rem auto;
     margin-left: 7rem;
@@ -66,7 +72,7 @@ body{
 #purple{
     width: 5rem;
     height: 5rem;
-    background-color: purple;
+    background-image: radial-gradient(rgb(248, 83, 248) 5%,purple 95%);
     border-radius: 33%;
     margin: 2rem auto;
     margin-right: 4rem;
@@ -75,7 +81,7 @@ body{
 #cyan{
     width: 5rem;
     height: 5rem;
-    background-color: cyan;
+    background-image: radial-gradient(rgb(167, 255, 255) 5%,cyan 95%);
     border-radius: 33%;
     margin: 2rem auto;
     margin-left: 4rem;
@@ -83,4 +89,26 @@ body{
 
 
 
-  
+/* CONTROL PANEL */
+
+.fa-power-off{
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-left: 50%;
+}
+
+.fa-undo{
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-left: 50%;
+}
+
+.fa-play{
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-left: 50%;
+}
+
