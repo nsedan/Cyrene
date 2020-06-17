@@ -10,19 +10,12 @@ font-family: 'Roboto', sans-serif; */
     color: #fff;
 }
 
-body{
-    background-color: black;
-    height: 100%;
+a:hover{
+    text-decoration: none;
 }
 
-
-/* LOGO */
-#Cyrene{
-    font-family: 'MuseoModerno', cursive;
-    font-weight: 900;
-    font-size: 4rem;
-    text-align: center;
-    margin-top: 4rem
+body{
+    background-image: radial-gradient(rgb(27, 27, 27) 5%, rgb(0, 0, 0) 95%);
 }
 
 
@@ -33,7 +26,86 @@ body{
     justify-content: center;
 }
 
-#red{
+/* POWERED OFF */
+
+.logo-off{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem
+}
+
+.red-off{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(rgb(136, 31, 31) 5%, red 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 3rem;
+}
+
+.green-off{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(rgb(34, 97, 34) 5%, green 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 3rem;
+}
+
+.yellow-off{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(rgb(133, 133, 28) 5%, yellow 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 7rem;
+}
+
+.blue-off{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(rgb(26, 26, 100) 5%,blue 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 7rem;
+}
+
+.purple-off{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(rgb(107, 33, 107) 5%,purple 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 4rem;
+}
+
+.cyan-off{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(rgb(32, 92, 92) 5%,cyan 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 4rem;
+}
+
+/* POWERED ON */
+
+.logo-on{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+    text-shadow: 3px 3px #818181;
+}
+
+.powered-on-buttons{
+    text-shadow: 2px 2px #818181;
+}
+
+.red-on{
     width: 5rem;
     height: 5rem;
     background-image: radial-gradient(rgb(252, 82, 82) 5%, red 95%);
@@ -42,7 +114,7 @@ body{
     margin-right: 3rem;
 }
 
-#green{
+.green-on{
     width: 5rem;
     height: 5rem;
     background-image: radial-gradient(rgb(106, 255, 106) 5%, green 95%);
@@ -51,7 +123,7 @@ body{
     margin-left: 3rem;
 }
 
-#yellow{
+.yellow-on{
     width: 5rem;
     height: 5rem;
     background-image: radial-gradient(rgb(255, 255, 152) 5%, yellow 95%);
@@ -60,7 +132,7 @@ body{
     margin-right: 7rem;
 }
 
-#blue{
+.blue-on{
     width: 5rem;
     height: 5rem;
     background-image: radial-gradient(rgb(53, 53, 255) 5%,blue 95%);
@@ -69,7 +141,7 @@ body{
     margin-left: 7rem;
 }
 
-#purple{
+.purple-on{
     width: 5rem;
     height: 5rem;
     background-image: radial-gradient(rgb(248, 83, 248) 5%,purple 95%);
@@ -78,7 +150,7 @@ body{
     margin-right: 4rem;
 }
 
-#cyan{
+.cyan-on{
     width: 5rem;
     height: 5rem;
     background-image: radial-gradient(rgb(167, 255, 255) 5%,cyan 95%);
@@ -88,6 +160,117 @@ body{
 }
 
 
+/* ACTIVE BUTTONS */
+
+.red-on:active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%, rgb(252, 82, 82) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 3rem;
+}
+
+.green-on:active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%, rgb(106, 255, 106) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 3rem;
+}
+
+.yellow-on:active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%, rgb(253, 253, 113) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 7rem;
+}
+
+.blue-on:active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%,rgb(53, 53, 255) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 7rem;
+}
+
+.purple-on:active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%,rgb(248, 83, 248) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 4rem;
+}
+
+.cyan-on:active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%,rgb(167, 255, 255) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 4rem;
+}
+
+/* ACTIVE CLASS BUTTONS */
+
+.red-active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%, rgb(252, 82, 82) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 3rem;
+}
+
+.green-active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%, rgb(106, 255, 106) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 3rem;
+}
+
+.yellow-active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%, rgb(253, 253, 113) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 7rem;
+}
+
+.blue-active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%,rgb(53, 53, 255) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 7rem;
+}
+
+.purple-active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%,rgb(248, 83, 248) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-right: 4rem;
+}
+
+.cyan-active{
+    width: 5rem;
+    height: 5rem;
+    background-image: radial-gradient(white 5%,rgb(167, 255, 255) 95%);
+    border-radius: 33%;
+    margin: 2rem auto;
+    margin-left: 4rem;
+}
 
 /* CONTROL PANEL */
 
