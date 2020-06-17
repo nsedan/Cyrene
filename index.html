@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyrene</title>
+    <title>Cyrene | A Simon Inspired Game</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -21,16 +21,17 @@
         </div>
         <div id="gamefield">
             <div class="top-row">
-                <div id="red" class="red-off" style="cursor:pointer"></div>
-                <div id="green" class="green-off" style="cursor:pointer"></div>
+                <div id="red" class="red-off gamebutton" onclick="playRedAudio()" style="cursor:pointer"></div>
+                <div id="green" class="green-off gamebutton" onclick="playGreenAudio()" style="cursor:pointer"></div>
             </div>
             <div class="middle-row">
-                <div id="yellow" class="yellow-off" style="cursor:pointer"></div>
-                <div id="blue" class="blue-off" style="cursor:pointer"></div>
+                <div id="yellow" class="yellow-off gamebutton" onclick="playYellowAudio()" style="cursor:pointer"></div>
+                <div class="level-board"><h2 id="level-message" class="current-level">Press Start</h2></div>
+                <div id="blue" class="blue-off gamebutton" onclick="playBlueAudio()" style="cursor:pointer"></div>
             </div>
             <div class="bottom-row">
-                <div id="purple" class="purple-off" style="cursor:pointer"></div>
-                <div id="cyan" class="cyan-off" style="cursor:pointer"></div>
+                <div id="purple" class="purple-off gamebutton" onclick="playPurpleAudio()" style="cursor:pointer"></div>
+                <div id="cyan" class="cyan-off gamebutton" onclick="playCyanAudio()" style="cursor:pointer"></div>
             </div>
         </div>
 
@@ -38,6 +39,12 @@
             <div class="col-4"><i class="fa fa-power-off" style="cursor:pointer" alt="power on"></i></div>
             <div class="col-4"><i class="fa fa-play" style="cursor:pointer" alt="play"></i></div>
             <div class="col-4"><i class="fa fa-undo" style="cursor:pointer" alt="restart level"></i></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <p id="inscription">A <span>Simon</span> Inspired Game</p>
+            </div>
         </div>
     </div>
 
