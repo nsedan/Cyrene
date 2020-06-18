@@ -182,62 +182,6 @@ body{
 
 /* ACTIVE BUTTONS */
 
-.red-on:active{
-    width: 5rem;
-    height: 5rem;
-    background-image: radial-gradient(white 5%, rgb(252, 82, 82) 95%);
-    border-radius: 33%;
-    margin: 2rem auto;
-    margin-right: 3rem;
-}
-
-.green-on:active{
-    width: 5rem;
-    height: 5rem;
-    background-image: radial-gradient(white 5%, rgb(106, 255, 106) 95%);
-    border-radius: 33%;
-    margin: 2rem auto;
-    margin-left: 3rem;
-}
-
-.yellow-on:active{
-    width: 5rem;
-    height: 5rem;
-    background-image: radial-gradient(white 5%, rgb(253, 253, 113) 95%);
-    border-radius: 33%;
-    margin: 2rem auto;
-    margin-right: 7rem;
-}
-
-.blue-on:active{
-    width: 5rem;
-    height: 5rem;
-    background-image: radial-gradient(white 5%,rgb(53, 53, 255) 95%);
-    border-radius: 33%;
-    margin: 2rem auto;
-    margin-left: 7rem;
-}
-
-.purple-on:active{
-    width: 5rem;
-    height: 5rem;
-    background-image: radial-gradient(white 5%,rgb(248, 83, 248) 95%);
-    border-radius: 33%;
-    margin: 2rem auto;
-    margin-right: 4rem;
-}
-
-.cyan-on:active{
-    width: 5rem;
-    height: 5rem;
-    background-image: radial-gradient(white 5%,rgb(167, 255, 255) 95%);
-    border-radius: 33%;
-    margin: 2rem auto;
-    margin-left: 4rem;
-}
-
-/* ACTIVE CLASS BUTTONS */
-
 .red-active{
     width: 5rem;
     height: 5rem;
@@ -286,7 +230,7 @@ body{
 .cyan-active{
     width: 5rem;
     height: 5rem;
-    background-image: radial-gradient(white 5%,rgb(167, 255, 255) 95%);
+    background-image: radial-gradient(white 5%,rgb(107, 253, 253) 95%);
     border-radius: 33%;
     margin: 2rem auto;
     margin-left: 4rem;
